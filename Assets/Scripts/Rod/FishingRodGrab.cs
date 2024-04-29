@@ -128,7 +128,7 @@ public class FishingRodGrab : XRGrabInteractable
             if (forwardVelocity > swingThreshold)
             {
                 
-                if (snapTurnProvider.InputValue.x == 0f) // Prevents Increa of the Thread Length While Snap Turning
+                if (snapTurnProvider.InputValue.x == 0f) // Prevents Increase of the Thread Length While Snap Turning
                 {
                     reelRotator.Value -= 6f * Time.deltaTime;
                     hookRb.transform.forward = mainCameraTransform.forward;
