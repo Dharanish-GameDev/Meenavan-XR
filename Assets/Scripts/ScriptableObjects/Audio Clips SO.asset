@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9d6dfcd62229d45840565726a271a2, type: 3}
+  m_Name: Audio Clips SO
+  m_EditorClassIdentifier: 
+  domainExpansion: {fileID: 8300000, guid: 3a222a2e1b6c4864db28f94ffa41aa27, type: 3}
+  gotchaSFX: {fileID: 8300000, guid: 822121c6a0bffda4f8ebc9e56a8aae4e, type: 3}
+  whoopsClip: {fileID: 8300000, guid: 0fc867cb6b1c9a7488827c7b0d81d11b, type: 3}
+  buttonClick: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
+  fingerSnap: {fileID: 8300000, guid: 36ab740ede46af34f825e348a11c0513, type: 3}
+  domainClose: {fileID: 8300000, guid: f59962f3ba7aa304bbfb7eaf8ed75d65, type: 3}
+  grabSfx: {fileID: 8300000, guid: 5707fdbb58f4bd549bf70740e563bc0b, type: 3}
