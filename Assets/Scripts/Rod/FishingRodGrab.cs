@@ -16,7 +16,7 @@ public class FishingRodGrab : XRGrabInteractable
     [SerializeField] private SphereCollider rodRotatorCollider;
     [SerializeField] private Rope rope;
     [SerializeField] private ReelRotator reelRotator; // From 0 to 1; min = 0.1f to max 1
-    [SerializeField] private ActionBasedSnapTurnProvider snapTurnProvider;
+    [SerializeField] private SnapTurnProviderMod snapTurnProvider;
     [SerializeField] private XRBaseInteractor rodInteractor;
     [SerializeField] private Rigidbody hookRb;
 

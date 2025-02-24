@@ -11,13 +11,13 @@ public class CaughtInhook : FishBaseState
     {
         FishCaught.instance.SethasFishTrue();
         UI_Manager.instance.SetFillColor(context.FillImage, Color.red);
-        FishCaught.instance.RodAnimationController.EnableRodBend();
         if (context.FishMoveType == FishMovementType.Static)
         {
             caughtInHookWaitTime = 3f;
             return;
         }
 
+        FishCaught.instance.RodAnimationController.EnableRodBend();
         RandomHookMovement.Instance.MoveRandomPointsToHook();
         RandomHookMovement.Instance.PlaceRandomPoints(context);
         RandomHookMovement.Instance.ExtendRope();
